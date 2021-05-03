@@ -1,6 +1,6 @@
 {
-    "private": "true",
     "name": "@fructo/transport-protocol",
+    "version": "1.0.0-alpha.0",
     "author": "The Fructo Authors",
     "description": "Communication protocol for native messaging",
     "keywords": [
