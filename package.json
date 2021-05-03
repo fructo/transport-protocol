@@ -1,0 +1,42 @@
+{
+    "private": "true",
+    "name": "@fructo/transport-protocol",
+    "author": "The Fructo Authors",
+    "description": "Communication protocol for native messaging",
+    "keywords": [
+        "communication",
+        "protocol",
+        "browser-extension",
+        "native-messaging"
+    ],
+    "license": "MIT",
+    "type": "module",
+    "files": [
+        "dist",
+        "!dist/test"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "c8 ava",
+        "lint": "eslint src test"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "latest",
+        "@typescript-eslint/parser": "latest",
+        "ava": "latest",
+        "c8": "latest",
+        "eslint": "latest",
+        "eslint-plugin-tsdoc": "latest",
+        "typescript": "latest"
+    },
+    "bugs": {
+        "url": "https://github.com/fructo/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fructo/transport-protocol.git"
+    },
+    "homepage": "https://github.com/fructo/transport-protocol",
+    "types": "./dist/src/index.d.ts",
+    "exports": "./dist/src/index.js"
+}
