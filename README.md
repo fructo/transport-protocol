@@ -3,6 +3,8 @@
 [![ci](https://github.com/fructo/transport-protocol/workflows/ci/badge.svg)](https://github.com/fructo/transport-protocol/actions)
 [![Coverage Status](https://codecov.io/gh/fructo/transport-protocol/branch/main/graph/badge.svg)](https://codecov.io/gh/fructo/transport-protocol/branch/main)
 
+[>>Issue Tracker<<](https://github.com/fructo/fructo/issues)
+
 This protocol describes communication between native applications and browsers.
 
 The project is platform-independent, so it can be used in Node.js, Deno, and web browser environments.
